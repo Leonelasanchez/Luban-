@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 100%;
+    
+	margin: 0%;
+}
+.oportunidades {
+    background-color: #4B4EE4;
+	padding: 40px;
+	font-size: 30px;
+	color: white;
+	position: relative;
+
+}
+.boton-oportunidades {
+	box-shadow:inset 0px -3px 33px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#070ab5;
+	font-family:Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	padding:16px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position: absolute;
+	left: 160px;
+	top: 159px;
+	gap: 100px;
+}
+.boton-oportunidades:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+
+.coolgirl { 
+	position: absolute;
+	margin: 0px auto;
+	left: 700px;
+	top: 70px;
+}
+.aboutus {
+	text-align: center;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 150%;
+	/* 42px */
+	padding: 35px;
+	letter-spacing: 0.6px;
+}
+
+.aboutus img {
+	max-width: 15rem;
+}
