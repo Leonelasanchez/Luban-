@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded',() =>{
 
-    const imagenes = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg']
+    const imagenes = ['Style-profile/img-profile/1.jpg', 'Style-profile/img-profile/2.jpg', 'Style-profile/img-profile/3.jpg']
 
     let i = 1 ;
 
