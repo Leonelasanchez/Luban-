@@ -20,8 +20,7 @@
 
 .card:hover {
 
-  height: ;
-  box-shadow: 0 30px 60px 0 #4b4ee4, 0 30px 100px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 30px 60px 0 #4b4ee4, 0 30px 100px 0 rgba(0, 0, 0, 0.19);
   
 }
 
