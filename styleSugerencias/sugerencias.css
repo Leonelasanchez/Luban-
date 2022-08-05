@@ -5,7 +5,6 @@
   align-items: center;
 }
 .buscador {
-  
   padding: 20px;
 }
 
@@ -14,17 +13,25 @@
 }
 
 .card {
-  margin: 2rem;
-  padding: 1rem;
+  margin: auto;
+  box-shadow: 0 12px 16px 0 #4b4ee4, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .card:hover {
-    
+
+  height: ;
+  box-shadow: 0 30px 60px 0 #4b4ee4, 0 30px 100px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.btn{
+  
+  margin: 1rem;
   box-shadow: 0 12px 16px 0 #4b4ee4, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .btn:hover {
-  box-shadow: 0 12px 16px 0 #4b4ee4, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  color:  #4b4ee4;
+  color: #4b4ee4;
+  box-shadow: 0 30px 60px 0 #4b4ee4, 0 30px 100px 0 rgba(0, 0, 0, 0.19);
 }
