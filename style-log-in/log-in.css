@@ -1,0 +1,109 @@
+@import url('https://fonts.google.com/specimen/Maven+Pro?query=mave#standard-styles');
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: url("img/login-bg.jpg"); 
+    background-repeat: no-repeat;
+    letter-spacing: 0.1rem;    /* background: rgb(75,78,228);
+    background: radial-gradient(circle, rgba(75,78,228,1) 47%, rgba(118,154,222,1) 100%); */
+}
+
+.login-container {
+    height: 30em;
+    width: 20em;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    /* background-color: #070AB5; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(35, 35, 151) 0%, rgb(67, 155, 244) 90% );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.login-info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2rem;
+    margin-left: 3rem;
+    /* background: #94c0e9; */
+}
+
+
+.titulo {
+    text-transform: capitalize;
+    margin-left: 0.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration-thickness: 5% ;
+}
+p {
+    font-family: 'Poppins' , sans-serif;
+    font-size: small;
+    display: inline-flexbox;
+}
+
+.input-container {
+    padding: 1rem;
+
+}
+input {
+    outline: none;
+    border: none;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #070ab5;
+}
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid #070ab5;
+}
+input--invalid label {
+    color: #f37b56;
+}
+label {
+    transform: translate(0, 1.25rem);
+    transition: 0.15s;
+}
+.boton {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: #070ab5;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    transition: 0.20s;
+    cursor: pointer;
+
+}
+.boton:hover {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, #0667D3 0%, #1c3b91 90% );
+
+}
+.google-login {
+    align-items: center;
+    padding: 1rem;
+}
+.google {
+    width: 25%;
+    margin-left: 41%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #1c1e94;
+}
+
+a:hover {
+    color: #751edf;
+}
+
