@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugerencias</title>
-    <link rel="stylesheet" href="./styleSugerencias/sugerencias.css">
+    <!-- <link rel="stylesheet" href="./styleSugerencias/sugerencias.css"> -->
+    <link rel="stylesheet" href="style-formularios/perfiles.css">
+    <link rel="stylesheet" href="style-home/style.css">
+    <link rel="stylesheet" href="styleFooter/footer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -18,111 +21,155 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 
-    <nav class="nav">
-        <div class="buscador">
-            <label>Buscar</label>
-            <input type="text" placeholder="Plomero...">
-        </div>
-        <div class="filtros">
-            <a href="#" class="btn ">Go somewhere</a>
-            <a href="#" class="btn ">Go somewhere</a>
-            <a href="#" class="btn ">Go somewhere</a>
-            <a href="#" class="btn ">Go somewhere</a>
-            <a href="#" class="btn ">Go somewhere</a>
-
-        </div>
-<!-- 
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-                <li><a href="#" class="btn ">Go somewhere</a></li>
-                <li><a href="#" class="btn ">Go somewhere</a></li>
-                <li><a href="#" class="btn ">Go somewhere</a></li>
-                <li><a href="#" class="btn ">Go somewhere</a></li>
-                <li><a href="#" class="btn ">Go somewhere</a></li>
-            </ul>
-        </div> -->
-
-        <p></p>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4" style="max-width: 100%;">
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/flechamouse.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-<<<<<<< HEAD
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-=======
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="profile.html" class="btn ">Solicitar Presupuesto</a>
-                        <a href="profile.html" class="btn ">Detalles ↓↓↓↓</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/Cool Kids - Sitting.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/avatar1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/avatar2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/avatar2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100" style="margin: 30px;">
-                    <img src="./style-home/assets/avatar2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Profesión</h4>
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-            
+    <!-- Navbar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="./style-home/assets/flechamouse.png">Luban!</label>
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="sugerencias.html">Empleos</a></li>
+            <li><a href="info.html">¿Cómo funciona?</a></li>
+            <li><a href="registrarme.html">Registrarse</a></li>
+            <li><a class="log" href="log-in.html">Log in</a></li>
+        </ul>
     </nav>
+
+    <div class="container-nosotros">
+        <div class="card">
+            <div class="content">
+                <span></span>
+
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/AL.png" alt="">
+                </div>
+                <h2>Alba Sanchez</h2>
+                <h3>Developer</h3>
+                <h4>Soy estudiante becada en Programación web full stack. Busco crecer profesionalmente ampliando mis
+                    habilidades técnicas sino también mis habilidades blandas.s</h4>
+                <ul class="links-nosotros">
+                    <li>♦ ♦ ♦ ♦ ♦</li>
+                    <li><a >Solicitar presupuesto</a></li>
+                    <li><a>Saber +</a></li>
+                    
+                </ul>
+
+
+            </div>
+
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <span></span>
+
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/MS.png" alt="">
+                </div>
+                <h2>Martin Silberstein</h2>
+                <h3>Developer</h3>
+                <h4>Quisiera poder desarrollarme laboralmente ampliando mis conocimientos en la tarea que sea requerida.
+                    Cuento con cierta experiencia laboral en distintos rubros. Soy una persona pro activa, responsable,
+                    persistente, y con buena predisposición para el trabajo.</h4>
+
+                <ul class="links-nosotros">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/martin-silberstein/"><i
+                                class="fa-brands fa-linkedin"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <span></span>
+
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/BM.png" alt="">
+                </div>
+                <h2>Bruno Morales</h2>
+                <h3>Aqui va el oficio</h3>
+                <h4>Soy una persona comprometida y autodidacta. Valoro la cordialidad y el respeto en el ambiente
+                    laboral.</h4>
+
+                <ul class="links-nosotros">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/bruno-morales-5247b1201/"><i
+                                class="fa-brands fa-linkedin"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <span></span>
+
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/LF.png" alt="">
+                </div>
+                <h2>Lucas Ferreira</h2>
+                <h3>Developer</h3>
+                <h4>Descripcion de linkedin</h4>
+
+                <ul class="links-nosotros">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/lucas-ferreira-6b61b3214/"><i
+                                class="fa-brands fa-linkedin"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <span></span>
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/JC.png" alt="">
+                </div>
+                <h2>Juan Castro</h2>
+                <h3>Developer</h3>
+                <h4>Me encanta la tecnología, me considero una persona organizada, comprometida y orientado a
+                    soluciones. Actualmente me encuentro estudiando y capacitando todos los días para poder expandir mi
+                    abanico de habilidades.</h4>
+
+                <ul class="links-nosotros">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/juan-ignaciocastro/"><i
+                                class="fa-brands fa-linkedin"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <span></span>
+
+                <div class="img">
+                    <img src="style-formularios/img-nosotros/AN.png" alt="">
+                </div>
+                <h2>Ana Lujan</h2>
+                <h3>Developer</h3>
+                <h4>Me considero una persona proactiva, responsable y dinámica.
+                    Me gusta trabajar en equipo. Estoy en constante aprendizaje.
+                    Conocí actualmente el mundo IT y siento que es un gran desafio para llevar adelante.</h4>
+
+                <ul class="links-nosotros">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/anacarolinalujan/"><i
+                                class="fa-brands fa-linkedin"></i></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
 
 </body>
 

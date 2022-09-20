@@ -31,6 +31,7 @@
 }
 
 .container-nosotros{
+    padding-top:4rem ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,6 @@
 }
 
 .card {
-    position: relative;
     width: 250px;
     height: 500px;
     border-radius: 10px;
@@ -57,11 +57,10 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background: white;
 }
 
@@ -112,7 +111,6 @@
     position: absolute;
     z-index: 90;
     width: 50px;
-    display: flex;
     flex-direction: column;
     gap: 20px;
     background: rgba(255, 255, 255, 0.5);
@@ -126,8 +124,6 @@
 
 
 .links-nosotros{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     list-style: none;
