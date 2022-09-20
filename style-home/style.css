@@ -288,4 +288,9 @@ a.active,a:hover{
 
 
 
-
+.sugerencias-personas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
