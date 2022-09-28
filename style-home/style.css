@@ -286,11 +286,84 @@ a.active,a:hover{
     width: 100%;
 }
 
-
+.title-sugerencias{
+    text-align: center;
+    font-size:40px;
+}
 
 .sugerencias-personas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-evenly;
+}
+
+.container-sugerencias{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.card-personas{
+    background: white;
+    width: 300px;
+    height:480px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url(/imagenes-personas/electricista_1.jpg);
+}
+
+.car-2{
+    background-image: url(/imagenes-personas/gasista_1.jpg);
+}
+
+.car-3{
+    background-image: url(/imagenes-personas/pintora_1.jpg);
+}
+
+.car-4{
+    background-image: url(/imagenes-personas/plomero_1.jpg);
+}
+
+.car-5{
+    background-image: url(/imagenes-personas/carpintera_1.jpg);
+}
+
+.card-personas h2{
+    padding: 1px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.card-personas p{
+    padding: 10px;
+    text-align: center;
+    font-size:15px;
+}
+
+.card-personas a{
+    background-color: #070ab5;
+    color:white;
+    padding: 15px  20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.card-personas:hover{
+    transform: scale(1.03);
+    transition: all 1s ease;
 }
