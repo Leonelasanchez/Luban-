@@ -89,6 +89,17 @@
     font-weight:700;
 }
 
+.info-secundaria a{
+    background-color: var(--color-primario);
+    color:white;
+    padding: 15px  20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
 
 #slideshow-principal{
     position: relative;
