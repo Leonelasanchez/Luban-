@@ -1,78 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>info</title>
     <link rel="stylesheet" href="styleFooter/info.css">
-    <link rel="stylesheet" href="style-home/style.css">
+    <link rel="stylesheet" href="styleFooter/nav-bar.css">
     <link rel="stylesheet" href="styleFooter/footer.css">
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo"><img src="./style-home/assets/flechamouse.png">Luban!</label>
-        <ul>
-            <li><a href="home.html">Inicio</a></li>
-            <li><a href="sugerencias.html">Empleos</a></li>
-            <li><a href="info.html">¿Cómo funciona?</a></li>
-            <li><a href="registrarme.html">Registrarse</a></li>
-            <li><a class="log" href="#">Log in</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="logo-contenedor">
+                <img src="./style-home/assets/flechamouse.png">
+                <label class="logo">Luban!</label>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="sugerencias.html">Empleos</a></li>
+                    <li><a href="info.html">¿Cómo funciona?</a></li>
+                    <li><a href="registrarme.html">Registrarse</a></li>
+                    <li><a class="log" href="#">Log in</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
     
-    <div class="flex-info">
-        <div class="flex-info pics">
+    <!-- INFO FLEX-CONTAINER -->
+    <div class="flex-container">
+        <div class="flex-item pics">
             <div class="flex-info pics container">
+    
                 <img src="Style-profile/images/graph.png" class="blob" alt="Blob">
-                <img src="Style-profile/images/Cool Kids - Standing.png" alt="Cool kids - standing">
+                <img src="Style-profile/images/Cool Kids - Standing.png" class="woman" alt="Cool kids - standing">
             </div>
             
         </div>
-        <div class="flex-info purpose">
+        <div class="flex-item purpose">
             <h2>Como funciona Luban!</h2>
             <p>Luban! es una pagina que ta ayuda a concetar con profesionales para poder solucionar tus problemas.Tratamos de genera un vinculo para poder facilitar los trabajos pequeños sean unas soluciones enormes.Contamos con mas de 10.000 talentos que te ayudaran a resolver tus problemas lo mas rapido posible.</p>
             <button class="flex-info button">Registrarse</button>
         </div>
     </div>
-
-    <footer id="footer">
-        <div class="footer-information">
-            <div class="footer-information-menu">
-                <h2>Menu</h2>
-                <ul>
-                    <a href="home.html"><li>Inicio</li></a>
-                    <a href="sugerencias.html"><li>Empleos</li></a>
-                    <a href="perfiles.html"><li>¿Quiénes somos?</li></a>
-                    <a href="registrarme.html"><li>Registrarse</li></a>
-                </ul>
-            </div>
-            <div class="footer-information-us">
-                <h2>Nosotros</h2>
-                <ul>
-                    <a target="_blank"  href="https://www.linkedin.com/in/lucas-ferreira-6b61b3214/"><li>Lucas Ferreira</li></a>
-                    <a target="_blank"  href="https://www.linkedin.com/in/bruno-morales-5247b1201/"><li>Bruno Morales</li></a>
-                    <a target="_blank"  href="https://www.linkedin.com/in/juan-ignaciocastro/"><li>Juan Castro</li></a>
-                    <a target="_blank"  href="https://www.linkedin.com/in/albajsanchez/"><li>Alba Sanchez</li></a>
-                    <a target="_blank"  href="https://www.linkedin.com/in/anacarolinalujan/"><li>Ana Lujan</li></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/martin-silberstein/"><li>Martin Silberstein</li></a>
-
-
-                </ul>
-            </div>
-            <div class="footer-information-repo">
-                <h2>Repositorio</h2>
-                <h3><a href="https://github.com/Leonelasanchez/Luban- " target=_blank>Github</a></h3>
-                <p>Este es nuestro repositorio en el cual pudimos crear la plataforma de Luban!</p>
-            </div>
-        </div>
-        <div class="footer-copy">Copyright © 2022. Luban! Todos los derechos reservados.</div>
-    </footer>
-    
-    
 </body>
 </html>

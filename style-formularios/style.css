@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 
 .form-register {
     width: 400px;
-    background: #070ab5;
+    background: #4b4ee4;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: 'Times New Roman', Times, serif;
     color: black;
     box-shadow: 7px 13px 37px #000;
 }
