@@ -1,25 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');
 nav{
-    width: 100%;
     display: flex;
     height: 100%;
-    background-color: aliceblue;
     justify-content: space-between;
+    padding: 0 100px;
+    font-family: 'Maven Pro', sans-serif;
+    position: sticky;
+    flex-wrap: wrap;
+    
 }
 
 .logo-contenedor{
     display: flex;
-    background-color: aqua;
-    margin-left: 2em;
+    width: 20%;
+}
+
+.logo-contenedor label{
+    color: #070AB5;
+    font-size: 50px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.logo-contenedor img {
+    transform: scale(0.8);
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    padding-bottom: 0.8rem;
 }
 
 .menu{
-    margin-right: 2em;
+    display: flex;
+    align-items: center;
 }
 .menu ul{
     padding: 0;
     list-style: none;
     display: flex;
-    gap: 2em;
+    gap: 4em;
+    padding: 0 2em;
+    font-size: 1.1rem;
     height: 100%;
-    background-color: brown;
+    flex-wrap: wrap;
+    
 }
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
