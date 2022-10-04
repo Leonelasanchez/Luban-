@@ -13,51 +13,12 @@ header{
 
 .flex-container{
     display: flex;
-}
-.flex-info div{
-    padding: 4rem;
-    width: 50%;
-}
-.flex-info .pics{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-.flex-info .pics .container{
-    position: relative;
-}
-.flex-info .pics img{
-    position: absolute;
-    width: 409px;
-    height: 609px;
-    top:-1rem;
-    left: 5rem;
-    background:transparent; 
-}
-.flex-info .pics .blob{
-    width: 500px;
-    left: -1rem;
-    width: 601px;
-    height: 556px;
-}
-.flex-info .purpose{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 10rem;
-}
-.flex-info .purpose > h2 {
-    padding-bottom: 4rem;
-    font-size: 40px;
-    line-height: 60px;
-    line-height: 150%;
-}
-.flex-info .purpose > p {
-    padding-bottom: 2rem;
-    font-weight: 500px;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    line-height: 165%;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    gap: 8em;
+
 
 }
 
