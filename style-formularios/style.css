@@ -6,12 +6,19 @@
     color: #fff;
 }
 
+.register-component{
+    margin-top: 20vh ;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 .form-register {
     width: 400px;
+    height: 90vh;
     background: #4b4ee4;
     padding: 30px;
-    margin: auto;
-    margin-top: 100px;
+ 
     border-radius: 4px;
     color: black;
     box-shadow: 7px 13px 37px #000;
@@ -23,6 +30,7 @@
 
 .controls {
     width: 100%;
+    color: black;
     background: white;
     padding: 10px;
     border-radius: 4px;
@@ -39,10 +47,10 @@
 
 }
 
-.form-register a:hover{
+/* .form-register a:hover{
     color: red;
     text-decoration: underline;
-}
+} */
 
 .form-register .botons{
     width: 100%;
@@ -54,3 +62,78 @@
     font-size: 16px;
 
 }  
+
+/*----Navbar----*/
+
+nav{
+    background: rgb(255, 255, 255);
+    font-family: 'Ubuntu',sans-serif;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index: 999999;
+    position: fixed;
+}
+
+label.logo{
+    color: #070AB5;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    cursor: pointer;
+}
+
+label.logo img{
+    padding-right: 5px;
+    width: 50px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none   ;
+}
+
+nav a:hover{
+    box-shadow: 7px 8px 8px 1px rgba(0,0,0,0.58);
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.log{
+    color: #303FC4;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    margin: 20px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: blanchedalmond;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
