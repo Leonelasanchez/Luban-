@@ -334,29 +334,30 @@ a.active,a:hover{
 
 .card-image{
     height: 170px;
+    
     margin-bottom: 20px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
 .car-1{
-    background-image: url(/imagenes-personas/electricista_1.jpg);
+    background-image: url('../imagenes-personas/electricista_1.jpg');
 }
 
 .car-2{
-    background-image: url(/imagenes-personas/gasista_1.jpg);
+    background-image: url('../imagenes-personas/gasista_1.jpg');
 }
 
 .car-3{
-    background-image: url(/imagenes-personas/pintora_1.jpg);
+    background-image: url('../imagenes-personas/pintora_1.jpg');
 }
 
 .car-4{
-    background-image: url(/imagenes-personas/plomero_1.jpg);
+    background-image: url('../imagenes-personas/plomero_1.jpg');
 }
 
 .car-5{
-    background-image: url(/imagenes-personas/carpintera_1.jpg);
+    background-image: url('../imagenes-personas/carpintera_1.jpg');
 }
 
 .card-personas h2{
